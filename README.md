@@ -15,10 +15,10 @@ A [demo](http://macdobry.net/pertzlabposters) web-viewer of a montage of posters
 
 ## Content
 
-* `scripts/makePosterMontage.py`\
+`scripts/makePosterMontage.py`\
 A Python script to convert individual `PNG` image files into a `dzi` pyramid.
-* `scripts/procImages.sh`\
 
+`scripts/procImages.sh`\
 A shell script that will:
 
 - convert all PDFs in a selected folder to PNGs using a `convert` command from the [ImageMagick](https://imagemagick.org) package,
@@ -26,7 +26,7 @@ A shell script that will:
 - copy `index.html` to the folder with the pyramid,
 - copy the OpenSeadragon library to the folder with the pyramid.
 
-* `HTML-template`\
+`HTML-template`\
 An HTML template with a basic viewer and the OpenSeadragon library.
 
 ## Usage
