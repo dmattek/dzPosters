@@ -1,0 +1,27 @@
+<html>
+<title>Deep Zoom Poster Gallery</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+      body {font-family: Arial;}
+  </style>
+  <script src="openseadragon/openseadragon.min.js"></script>
+</head>
+
+<body>
+  Uses the <a href="https://openseadragon.github.io">OpenSeadragon</a> web viewer.
+
+  <br>
+  <br>
+
+  <div class="osd" id="osd1" style="width: 100%; height: 100%;"></div>
+  <script type="text/javascript">
+      var viewer = OpenSeadragon({
+          id: "osd1",
+          prefixUrl: "openseadragon/images/",
+          tileSources: "dzi.dzi",
+      });
+  </script>
+</body>
+</html>
